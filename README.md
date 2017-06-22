@@ -3,10 +3,13 @@
 ### Installation
 *Download XCode*
 >xcode-select --install
+
 *Install wxmac*
 >brew install wxmac
+
 *Install homebrew*
 > /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 *Check for libraries*
 > /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
