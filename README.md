@@ -14,7 +14,7 @@
 You should now be able to look at the code in the source folder, and import example image files and output data.
 
 1. Make sure the path is right for the folders you want to analyze. Path line is specified near the end of *minSurfTests.xcodeproj* and reads:
-  string pathToImages("/Users/vsavage/Desktop/minimalSurfaces_share");
+  <pre><code>string pathToImages("/Users/vsavage/Desktop/minimalSurfaces_share");</pre></code>
 1. Look for the line that reads:
   string imageDir(pathToImages + "/FITC-MCA0_N12_NIH001_s1_4"); int imStart(0), imEnd(66); double voxdims[] = {1.648, 1.648, 0.492};  thresh = 0.22; string lengthUnit("um");
 1. Where it says, “/FITC-MCA0_N12_NIH001_s1_4” is where you can replace the folder name for whatever images you want to analyze (ie. “small_easy_test”)
